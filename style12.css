@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.caixa-1{
+
+    display:flex;
+    justify-content: center;
+align-items: center;
+border-radius:12px;
+gap :20px;
+flex-direction: column;
+margin-top:100px;}
+.caixa-2 {
+    display:flex;
+    justify-content: center;
+align-items: center;
+border-radius:12px;
+margin:auto;
+gap:40px;
+flex-direction: column;
+
+}
+textarea {
+    resize:none;
+    padding:8px;
+    width:50%;
+    margin-top:40px;
+
+    
+}
+.voltar
+     {
+    font-size:15px;
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+    background:red ;
+    border-radius:12px ;
+    padding:10px;
+    text-decoration: none;
+    transition: transform 0.3s;
+    display: inline-block;
+}
+.voltar:hover {
+    transform: scale(1.05);
+}
+button {
+    width: 200px;
+    height:auto;
+    background: rgba(255,255,255,0.9);
+    border-radius: 15px;
+    font-family: "Dancing Script",cursive;
+    
+}
+.caixa-3 {
+    width:100px;
+    height:auto;
+    background:green;
+    border-radius: 15px;
+    font-family: "Dancing Script",cursive;
+     display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+

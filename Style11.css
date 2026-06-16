@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ 
+}
+h1 { 
+    color:red;
+    font-size:50px;
+    font-family: "Dancing Script",cursive;
+    text-align: center;
+
+}
+.caixa-1 {
+    justify-content: center;
+align-items: center;
+    display:flex ;
+    flex-direction: column;
+    margin:auto;
+    padding:30px;
+    gap:20px;
+    font-size:20px;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    margin-top:30px;
+    max-width: 600px;
+}
+body {
+    background-image: url("dfsdf.jfif");
+     background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+.voltar
+     {
+    font-size:15px;
+    color:white;
+    margin-left:10px;
+    margin-top:10px;
+    background:red ;
+    border-radius:12px ;
+    padding:20px;
+    text-decoration: none;
+    transition: transform 0.3s;
+    display: inline-block;
+}
+.voltar:hover {
+    transform: scale(1.05);
+}
+.caixa-escrita {
+    border-radius: 16px;
+    padding:8px;
+    margin-top :10px ;
+    display:flex ; 
+    justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    
+    
+}
+textarea {
+    width:80%;
+    background : white;
+    color: black ;
+    border-radius : 20px;
+    font-size:15px;
+ resize:none;
+  padding:5px;
+  max-width: 600px;
+  margin-top:40px;
+}
+button { 
+    width:20%;
+    cursor:pointer;
+    border-radius:20px;
+    background:red; 
+ color:white;
+ padding:12px;
+ margin-top:30px;
+}
+.caixa-resposta {
+    background: rgba(255,255,255,0.9);
+    border-radius:20px;
+      justify-content: center;
+      align-items: center;
+    display:flex ;
+    flex-direction: column;
+max-width: 600px;
+     text-align: center;
+     margin-top:30px;
+     padding:10px;
+     
+
+
+}
