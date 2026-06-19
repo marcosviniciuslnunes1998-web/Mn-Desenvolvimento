@@ -9,7 +9,7 @@ let endereco = "https://api.groq.com/openai/v1/chat/completions"
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer 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"
         },
         body: JSON.stringify({
             "model": "llama-3.3-70b-versatile",
