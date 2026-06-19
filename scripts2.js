@@ -5,7 +5,7 @@ let endereco = "https://api.groq.com/openai/v1/chat/completions"
  let resposta = await fetch(endereco, {
   method : "POST",
   headers : {"Content-Type": "application/json",
-            "Authorization": "Bearer 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"
+            "Authorization": "Bearer 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"
           },
           body : JSON.stringify({
             "model": "llama-3.3-70b-versatile",
